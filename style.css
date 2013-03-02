@@ -1,0 +1,88 @@
+body {
+	margin:2%;
+	font-family:"Open Sans",sans-serif;
+	color:#444;
+}
+
+input[type="checkbox"] {
+	margin-top:0;
+}
+
+::selection {
+	background:#0088cc;
+	color:#fff;
+}
+
+#output > p {
+	display:inline;
+}
+
+#bstimate p {
+	margin:0;
+}
+
+#bstimate span {
+	font-weight:700;
+}
+
+.clear {
+	clear:both;
+	display:none;
+}
+
+.popover {
+	color:black;
+	text-shadow:none;
+}
+
+.badge {
+	cursor:default;
+}
+
+.info b, h2 {
+	font-size:150%;
+}
+
+textarea {
+	float:left;
+	clear:left;
+}
+
+.btn-success {
+	float:none;
+	margin:2%;
+}
+
+.progress {
+	min-width:150px;
+	margin:1%;
+}
+
+.text-error {
+	float:left;
+	margin-top:2%;
+}
+
+button {
+	clear:none;
+	float:left;
+	margin:1% 5% 1% 0;
+}
+
+textarea {
+	min-width:90%;
+	max-width:100%;
+	background:#fff;
+	min-height:350px;
+	padding:.5%;
+}	
+
+#input {
+	float:left;
+	width:42%;
+}
+
+#output {
+	float:right;
+	width:58%;
+}
